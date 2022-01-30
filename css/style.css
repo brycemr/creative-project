@@ -6,8 +6,6 @@
 }
 
 body{
-	margin: 0;
-	padding: 0;
 	font-family: "Century Gothic", sans-serif;
 	box-sizing: border-box;
 }
@@ -62,7 +60,7 @@ footer {
   left: 0;
   width: 100%;
   height: 2.5rem;
-  background-color: #f6e9f2;
+  background-color: #ADD8E8;
   padding: 10px 0px 10px 50px;
 }
 a{
@@ -151,9 +149,19 @@ img{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 18vh;
+	max-height: 10vh;
 	background-size: cover;
 }
+#candle-banner{
+	background-image: url();
+}
+#disk-golf-banner{
+	background-image: url();
+}
+#crochet-banner{
+	background-image: url();
+}
+
 .items-list{
 	padding: 0 0 0 1.5em;
 	font-size: 1.5em;
@@ -164,7 +172,7 @@ img{
         font-size: 1.5em;
         width: 100%;
         height: 100%;
-	margin: 0;
+	margin: o;
 	padding: 1em;
         display: flex;
 	justify-content: center;
@@ -179,3 +187,18 @@ img{
 #product{
 	max-height: 20vh;
 }
+.list{
+	padding: 0;
+	justify-content: center;
+}
+#tutorial-image{
+	max-height: 70vh;
+}
+
+@media (min-width: 768px){
+	#gallery{
+		padding: 0 1.5em 0 1.5em;
+		max-height: 50vh;
+	}
+}
+		
